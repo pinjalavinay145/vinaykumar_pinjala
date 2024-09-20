@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-08T17:19:41 IST" name="Default suite" finished-at="2024-08-08T17:22:31 IST" duration-ms="169978">
+    <groups>
+      <group name="functional">
+        <method signature="CreatingAContact_Test.CreatingContactWIthOrgName()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" name="CreatingContactWIthOrgName" class="com.comcast.crm.Contact_Test.CreatingAContact_Test"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="CreatingAContact_Test.CreatingContactWIthOrgName()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" name="CreatingContactWIthOrgName" class="com.comcast.crm.Contact_Test.CreatingAContact_Test"/>
+        <method signature="CreatingAContact_Test.CreatingContactWithDate()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" name="CreatingContactWithDate" class="com.comcast.crm.Contact_Test.CreatingAContact_Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CreatingAContact_Test.creatingcontact()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" name="creatingcontact" class="com.comcast.crm.Contact_Test.CreatingAContact_Test"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-08T17:19:41 IST" name="Default test" finished-at="2024-08-08T17:22:31 IST" duration-ms="169978">
+      <class name="com.comcast.crm.Contact_Test.CreatingAContact_Test">
+        <test-method is-config="true" signature="ConnectinhToTheDb()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:19:41 IST" name="ConnectinhToTheDb" finished-at="2024-08-08T17:19:41 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConnectinhToTheDb -->
+        <test-method is-config="true" signature="OpeningBrowser()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:19:41 IST" name="OpeningBrowser" finished-at="2024-08-08T17:19:52 IST" duration-ms="10640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpeningBrowser -->
+        <test-method is-config="true" signature="LoggingIntoApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:19:52 IST" name="LoggingIntoApp" finished-at="2024-08-08T17:20:03 IST" duration-ms="11474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggingIntoApp -->
+        <test-method signature="CreatingContactWIthOrgName()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:20:03 IST" name="CreatingContactWIthOrgName" finished-at="2024-08-08T17:21:42 IST" duration-ms="98484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingContactWIthOrgName -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:21:42 IST" name="logoutFromApp" finished-at="2024-08-08T17:21:45 IST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="LoggingIntoApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:21:45 IST" name="LoggingIntoApp" finished-at="2024-08-08T17:21:48 IST" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggingIntoApp -->
+        <test-method signature="CreatingContactWithDate()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:21:48 IST" name="CreatingContactWithDate" finished-at="2024-08-08T17:22:07 IST" duration-ms="18721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatingContactWithDate -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:07 IST" name="logoutFromApp" finished-at="2024-08-08T17:22:09 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="LoggingIntoApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:09 IST" name="LoggingIntoApp" finished-at="2024-08-08T17:22:12 IST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoggingIntoApp -->
+        <test-method signature="creatingcontact()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:12 IST" name="creatingcontact" finished-at="2024-08-08T17:22:29 IST" duration-ms="17026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingcontact -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:29 IST" name="logoutFromApp" finished-at="2024-08-08T17:22:31 IST" duration-ms="1876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="ClosingTehBrowser()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:31 IST" name="ClosingTehBrowser" finished-at="2024-08-08T17:22:31 IST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingTehBrowser -->
+        <test-method is-config="true" signature="closingTheDbConnection()[pri:0, instance:com.comcast.crm.Contact_Test.CreatingAContact_Test@6253c26]" started-at="2024-08-08T17:22:31 IST" name="closingTheDbConnection" finished-at="2024-08-08T17:22:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingTheDbConnection -->
+      </class> <!-- com.comcast.crm.Contact_Test.CreatingAContact_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
